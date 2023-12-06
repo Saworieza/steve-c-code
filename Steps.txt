@@ -1,0 +1,8 @@
+create a random_file_generator
+run it using - `gcc random_puzzle_generator.c -o random_puzzle_generator` to generate an exe file
+run the exe file as `./random_file_generator 5 5 > puzzle.txt` 
+compile and run the word search puzzle solver `solve.c` passing the generated puzzle file as a command-line argument.
+`gcc solve.c -o solve -pthread`
+Run the solver program, specifying the puzzle file and the desired buffer cell count `./solve puzzle.txt 4`
+
+

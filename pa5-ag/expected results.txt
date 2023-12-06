@@ -1,0 +1,183 @@
+
+
+			****************************
+
+-./01solution:
+	--Test Case #0:
+STDIN:[
+
+]
+CLAs:[./01solution -dict dict.txt -input puzzle100by100.txt -len 6:14 -size 100 -nbuffer 4 ]
+STDOUT:[
+word	TID	LnSpan	ColSpan
+gadfly	0	88:88	47:52
+binder	0	5:10	78:73
+]
+	--Test Case #1:
+STDIN:[
+
+]
+CLAs:[./01solution -dict dict.txt -input puzzle1001by1001.txt -len 7:9 -size 1001 -nbuffer 1 ]
+STDOUT:[
+word	TID	LnSpan	ColSpan
+gambist	0	116:116	545:551
+andiron	0	181:181	914:920
+grilled	0	241:241	797:803
+compare	0	675:675	739:733
+bathtub	0	760:760	927:933
+nepidae	0	885:885	353:359
+focused	0	896:896	713:707
+remount	0	217:223	325:325
+klavern	0	532:538	56:56
+keyhole	0	646:652	764:764
+working	0	227:233	263:269
+palatal	0	500:494	670:676
+dandyish	0	696:689	259:259
+]
+	--Test Case #2:
+STDIN:[
+
+]
+CLAs:[./01solution -dict dict.txt -input puzzle1001by1001.txt -len 7:9 -size 1001 -nbuffer 4 -s ]
+STDOUT:[
+word	TID	LnSpan	ColSpan
+andiron	0	181:181	914:920
+bathtub	0	760:760	927:933
+compare	0	675:675	739:733
+dandyish	0	696:689	259:259
+focused	0	896:896	713:707
+gambist	0	116:116	545:551
+grilled	0	241:241	797:803
+keyhole	0	646:652	764:764
+klavern	0	532:538	56:56:00
+nepidae	0	885:885	353:359
+palatal	0	500:494	670:676
+remount	0	217:223	325:325
+working	0	227:233	263:269
+]
+	--Test Case #3:
+STDIN:[
+
+]
+CLAs:[./01solution -dict dict.txt -input puzzle100mb.txt -len 8:8 -size 10000 -nbuffer 16 -s ]
+STDOUT:[
+word	TID	LnSpan	ColSpan
+aigrette	1	422:415	3284:3291
+alistair	9	9233:9233	3878:3885
+alkapton	8	2160:2160	4812:4819
+athenian	9	2889:2896	7884:7891
+bluefish	6	3491:3491	1103:1096
+bribable	8	9158:9151	1732:1725
+brickbat	9	9932:9939	3290:3297
+calyptra	3	169:169	7488:7481
+canicule	13	5881:5888	3080:3087
+carrycot	6	3387:3380	416:423
+colorful	7	2547:2554	2881:2888
+conopsea	4	813:806	8797:8797
+corroded	0	4118:4125	9870:9863
+decipher	4	7362:7369	4045:4045
+disjoint	13	4606:4613	3323:3330
+drawback	13	5218:5211	2105:2112
+followup	9	3826:3826	7149:7142
+freckled	13	4437:4430	2918:2918
+handmaid	2	7654:7661	719:712
+hempweed	9	8164:8171	3466:3459
+humorous	4	6242:6242	5894:5887
+imbecile	4	1974:1981	8318:8318
+infinite	6	6952:6945	8959:8966
+khoikhoi	0	4822:4815	8001:8001
+liliales	8	9457:9464	730:730
+loeselii	0	1506:1513	811:811
+margrave	4	6454:6454	5187:5180
+merchant	6	7559:7566	8083:8090
+mouthful	13	4936:4943	3208:3201
+nicolson	15	5137:5130	6458:6451
+okenfuss	4	6818:6825	4857:4857
+operetta	6	2984:2984	1009:1016
+outsized	2	880:887	4618:4611
+overshoe	13	4508:4501	3635:3642
+pickerel	10	2272:2272	9594:9601
+priapism	13	5432:5425	3493:3486
+qindarka	9	9933:9926	3335:3335
+reginald	0	4169:4176	9142:9149
+resurvey	13	4605:4612	2818:2811
+rodolphe	12	4545:4538	1177:1170
+seaboard	10	9062:9055	5118:5125
+shinleaf	14	5340:5347	5170:5163
+sibyllic	3	7908:7915	3572:3572
+snowsuit	8	3706:3713	5184:5177
+snuggled	2	366:359	4369:4376
+southern	15	5204:5197	6463:6463
+supplier	10	2182:2189	8456:8449
+telemann	15	5600:5607	6801:6808
+tercelet	13	5971:5978	3085:3092
+ukrayina	4	7412:7419	5331:5338
+unleaded	12	4433:4433	105:98
+unvaried	5	6024:6017	6828:6835
+viatical	3	6516:6523	3204:3197
+wannabee	5	7312:7312	6220:6227
+]
+	--Test Case #4:
+STDIN:[
+
+]
+CLAs:[./01solution -dict dict.txt -input puzzle100mb.txt -len 8:9 -size 10000 -nbuffer 64 ]
+STDOUT:[
+word	TID	LnSpan	ColSpan
+calyptra	7	169:169	7488:7481
+operetta	34	2984:2984	1009:1016
+alkapton	26	2160:2160	4812:4819
+pickerel	31	2272:2272	9594:9601
+bluefish	34	3491:3491	1103:1096
+unleaded	44	4433:4433	105:98
+operetta	23	2984:2984	1009:1016
+followup	40	3826:3826	7149:7142
+loeselii	11	1506:1513	811:811
+conopsea	8	813:806	8797:8797
+freckled	46	4437:4430	2918:2918
+imbecile	19	1974:1981	8318:8318
+southern	61	5204:5197	6463:6463
+khoikhoi	52	4822:4815	8001:8001
+reginald	53	4169:4176	9142:9149
+colorful	24	2547:2554	2881:2888
+rodolphe	45	4545:4538	1177:1170
+athenian	29	2889:2896	7884:7891
+disjoint	47	4606:4613	3323:3330
+priapism	58	5432:5425	3493:3486
+supplier	30	2182:2189	8456:8449
+aigrette	3	422:415	3284:3291
+nicolson	61	5137:5130	6458:6451
+snuggled	4	366:359	4369:4376
+corroded	53	4118:4125	9870:9863
+canicule	58	5881:5888	3080:3087
+carrycot	33	3387:3380	416:423
+telemann	61	5600:5607	6801:6808
+outsized	4	880:887	4618:4611
+resurvey	46	4605:4612	2818:2811
+drawback	57	5218:5211	2105:2112
+overshoe	47	4508:4501	3635:3642
+snowsuit	38	3706:3713	5184:5177
+shinleaf	60	5340:5347	5170:5163
+mouthful	47	4936:4943	3208:3201
+humorous	7	6242:6242	5894:5887
+margrave	7	6454:6454	5187:5180
+wannabee	19	7312:7312	6220:6227
+qindarka	49	9933:9926	3335:3335
+brickbat	49	9932:9939	3290:3297
+alistair	38	9233:9233	3878:3885
+decipher	17	7362:7369	4045:4045
+tercelet	5	5971:5978	3085:3092
+okenfuss	6	6818:6825	4857:4857
+liliales	35	9457:9464	730:730
+sibyllic	16	7908:7915	3572:3572
+ukrayina	18	7412:7419	5331:5338
+bribable	36	9158:9151	1732:1725
+merchant	21	7559:7566	8083:8090
+infinite	22	6952:6945	8959:8966
+unvaried	8	6024:6017	6828:6835
+viatical	5	6516:6523	3204:3197
+seaboard	40	9062:9055	5118:5125
+hempweed	27	8164:8171	3466:3459
+handmaid	13	7654:7661	719:712
+infinite	11	6952:6945	8959:8966
+]
